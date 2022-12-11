@@ -13,16 +13,20 @@ body{
 
   .container_name li{
     list-style-type: none;
+    top: 0;
+    right: 0;
+    background: #12c450c0;
+    text-align: right;
+    width: fit-content;
+    color: white;
 }
 .name{
     
     position: relative;
-    
-    top: 0;
-    display: inline;
-    text-align: right;
-    width: 170px;
+
     font-size: 15px;
+    width: auto;
+
     
 }
 
@@ -41,11 +45,9 @@ body{
 
 
 .nav_menu_title_big{
-    height: 70px;
+   height: 100px;
     background: #69e81a;
 }
-
-
 
 
 
@@ -104,11 +106,6 @@ body{
 .nav_title_krasivo1 {
     height: 100px;
 }
-
-
-
-
-
 
 
 
@@ -277,6 +274,29 @@ body{
     width: 100px;
 
   }
+  /*
+.button_text{
+  position: relative;
+  left: 106px;
+}*/
+/*
+.button1{
+  position: relative;
+  left: 102px;
+}
+.button2{
+  position: relative;
+  left: 602px;
+}
+.button3{
+  position: relative;
+  left: 902px;
+}
+.button4{
+  position: relative;
+  left: 520px;
+}*/
+
 
 .big_container1{
     height: 500px;
@@ -354,10 +374,12 @@ body{
 */
 
 .super_big_container{
+  
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(0, 0fr);
     justify-content: center;
+    
 }
 
 /* Новое*/
@@ -724,52 +746,6 @@ body{
 
 
 
-#history_h2{
-    /*
-    position: relative;
-    top: 200px;
-    left: 100px;
-    */
-}
-
-#vidy_h2{
-    /*
-    position: relative;
-    top: 350px;
-    left: 600px;
-    */
-}
-
-#vmecto_h2{
-    /*
-    position: relative;
-    top: 350px;
-    left: 850px;
-    */
-}
-
-#algebra_h2{
-    /*
-     position: relative;
-     top: 350px;
-     left: 1200px;
-     */
-}
-
-
-
-/*
-#text_h2{
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-}*/
-
-/*
-.big_container1{
-    display: block;
-}
-*/
-
 .titles{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -777,17 +753,7 @@ body{
     padding-left: 30px;
 
 }
-/*
-.button_text{
-    height: 50px;
-    width: 160px;
-    color: #e88181;
-    background-color: greenyellow;
-    border-radius: 5px;
-    font-size: 25px;
-    font-weight: bold;
-}
-*/
+
 
 .button_text{
     height: 70px;
@@ -802,6 +768,34 @@ body{
     border: 6px solid #00ff15 ;
     color: #00ff15;
     transition: 1s;
+    position: relative;
+}
+
+
+/*Возможно надо убрать 0 */
+.button1{
+  left: 106px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.button2{
+  left: 290px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.button3{
+  left: 470px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.button4{
+  left: 655px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 
@@ -880,4 +874,28 @@ body{
 .links_but{
     text-decoration: none;
     color: #00ff15;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+ 
+  html{
+    width: 89%;
+  }
+
+}
+
+
+@media screen and (min-width: 669px) and (max-width: 768px) {
+ 
+  html{
+    width: 85%;
+  }
+}
+
+
+@media screen and (min-width: 520px) and (max-width: 668px) {
+
+  html{
+    width: 100%;
+  }
 }

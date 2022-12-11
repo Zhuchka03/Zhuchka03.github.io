@@ -201,7 +201,7 @@ section .que_text{
     font-weight: 600;
 }
 
-section .option list{
+section .option_list{
     padding: 20px 0px;
     display: block;
 }   
@@ -270,7 +270,7 @@ section .option_list .option .icon{
 
 
 
-footer{
+#footer_test{
     height: 60px;
     padding: 0 30px;
     display: flex;
@@ -278,20 +278,20 @@ footer{
     justify-content: space-between;
     border-top: 1px solid lightgrey;
 }
-footer .total_que span{
+#footer_test .total_que span{
     display: flex;
     user-select: none;
 }
 
-footer .total que span p{
+#footer_test .total que span p{
     font-weight: 500;
     padding: 0 5px;
 }
-footer .total que span p:first-child{
+#footer_test .total que span p:first-child{
     padding-left: 0px;
 }
 
-footer button{
+#footer_test button{
     height: 40px;
     padding: 0 13px;
     font-size: 18px;
@@ -311,11 +311,11 @@ footer button{
 }
 
 
-footer button:hover{
+#footer_test button:hover{
     background: #47e318;
     border: 1px solid #47e318;
 }
-footer button.show{
+#footer_test button.show{
     opacity: 1;
     pointer-events: auto;
     transform: scale(1);
@@ -426,4 +426,450 @@ footer button.show{
 .knopka_glav_test button:hover{
     transform: scale(1.1);
     background: #028e0d9e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+      
+
+
+.start_btn,
+.info_box,
+.quiz_box,
+.result_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult{
+    opacity: 1;
+    z-index: 5;
+
+}
+.start_btn button{
+    font-size: 25px;
+    font-weight: 100;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: 1.2s;
+    box-shadow: 0 0 100px 9px ;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.info_box{
+    width: 300px;
+    border-radius: 5px;  
+}
+.info_box .info-title{
+    height: 60px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.info_box .info-list{
+    padding: 15px 30px;
+}
+.info_box .info-list .info{
+    margin: 5px 0;
+    font-size: 16px;
+}
+.info_box .info-list .info span{
+    font-weight: 300;
+}
+.info_box .buttons{
+    height: 60px;
+    padding: 0 30px;
+}
+
+.info_box .buttons button{
+
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 200;
+   
+}
+
+
+.quiz_box{
+    width: 250px;
+}
+
+.quiz_box header{
+    height: 70px;
+    padding: 0 30px;
+ 
+}
+
+
+.quiz_box header .title{
+    font-size: 15px;
+    font-weight: 300;
+}
+.quiz_box header .timer{
+    height: 45px;
+    border-radius: 5px;
+    width: 90px;
+}
+
+.quiz_box header .timer .time_left_txt{
+    font-weight: 70;
+    font-size: 9px;
+}
+.quiz_box header .timer .timer_sec{
+    font-size: 13px;
+    font-weight: 200;
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    line-height: 30px;
+}
+
+.quiz_box header .time_line{
+    height: 0px;
+}
+
+section .que_text{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+section .option list{
+    padding: 20px 0px;
+    display: block;
+}   
+section .option_list .option{
+
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+section .option_list .option .icon{
+    height: 26px;
+    width: 26px;
+    font-size: 13px;
+    line-height: 24px;
+
+}
+
+
+#footer_test{
+    height: 60px;
+}
+
+
+#footer_test .total que span p{
+    font-weight: 300;
+    padding: 0 5px;
+}
+
+
+#footer_test button{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+
+
+.result_box{
+    border-radius: 5px;
+
+    padding: 25px 30px;
+    width: 310px;
+}
+
+.result_box .icon{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.result_box .complete_text{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.result_box .score_text span{
+    display: flex;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.result_box .score text span p{
+    padding: 0 4px;
+    font-weight: 300;
+}
+
+
+.result_box .buttons button{
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 11px;
+    font-weight: 180;
+
+    border-radius: 5px;
+}
+
+
+
+
+.knopka_glav_test button{
+    
+    width: 150px;
+    height: 40px;
+    left: 15px;
+    top: 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: 1.2s;
+}
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 451px) and (max-width: 518px) {
+
+ 
+    .start_btn button{
+        font-size: 25px;
+        font-weight: 100;
+        padding: 15px 30px;
+        border-radius: 5px;
+        transition: 1.2s;
+        box-shadow: 0 0 100px 9px ;
+    
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    
+    .info_box{
+        width: 400px;
+        border-radius: 5px;  
+    }
+    .info_box .info-title{
+        height: 60px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .info_box .info-list{
+        padding: 15px 30px;
+    }
+    .info_box .info-list .info{
+        margin: 5px 0;
+        font-size: 16px;
+    }
+    .info_box .info-list .info span{
+        font-weight: 400;
+    }
+    .info_box .buttons{
+        height: 60px;
+        padding: 0 30px;
+    }
+    
+    .info_box .buttons button{
+    
+        height: 40px;
+        width: 100px;
+        font-size: 16px;
+        font-weight: 200;
+       
+    }
+    
+    
+    .quiz_box{
+        width: 350px;
+    }
+    
+    .quiz_box header{
+        height: 70px;
+        padding: 0 30px;
+     
+    }
+    
+    
+    .quiz_box header .title{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .quiz_box header .timer{
+        height: 45px;
+        border-radius: 5px;
+        width: 100px;
+    }
+    
+    .quiz_box header .timer .time_left_txt{
+        font-weight: 70;
+        font-size: 9px;
+    }
+    .quiz_box header .timer .timer_sec{
+        font-size: 13px;
+        font-weight: 300;
+        height: 30px;
+        width: 30px;
+        margin: 2px;
+        line-height: 30px;
+    }
+    
+    .quiz_box header .time_line{
+        height: 0px;
+    }
+    
+    section .que_text{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    section .option list{
+        padding: 20px 0px;
+        display: block;
+    }   
+    section .option_list .option{
+    
+        padding: 8px 15px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    
+    section .option_list .option .icon{
+        height: 26px;
+        width: 26px;
+        font-size: 13px;
+        line-height: 24px;
+    
+    }
+    
+    
+    #footer_test{
+        height: 60px;
+    }
+    
+    
+    #footer_test .total que span p{
+        font-weight: 300;
+        padding: 0 5px;
+    }
+    
+    
+    #footer_test button{
+        height: 40px;
+        padding: 0 13px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    
+    
+    
+    .result_box{
+        border-radius: 5px;
+    
+        padding: 25px 30px;
+        width: 400px;
+    }
+    
+    .result_box .icon{
+        font-size: 100px;
+        margin-bottom: 10px;
+    }
+    .result_box .complete_text{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .result_box .score_text span{
+        display: flex;
+        margin: 10px 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .result_box .score text span p{
+        padding: 0 4px;
+        font-weight: 400;
+    }
+    
+    
+    .result_box .buttons button{
+        margin: 0 10px;
+        height: 45px;
+        padding: 0 15px;
+        font-size: 14px;
+        font-weight: 300;
+        border-radius: 5px;
+    }
+
+    
+    .knopka_glav_test button{
+        
+        width: 150px;
+        height: 40px;
+        left: 15px;
+        top: 15px;
+        border-radius: 5px;
+        font-size: 17px;
+        transition: 1.2s;
+    }
+    
+}
+
+
+@media screen and (min-width: 519px) and (max-width: 768px) {
+
+   
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+   
+   
+
+    
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1599px) {
+
+  
+
 }
