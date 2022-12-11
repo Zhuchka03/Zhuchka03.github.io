@@ -1532,8 +1532,6 @@ p{
     bottom: 0px;
   }
 
-
-
   
   .strips_cubd1_1 > div {
     top: 300px;
@@ -1649,60 +1647,59 @@ p{
    
 @media screen and (min-width: 4095px) and (max-width: 4100px) {
  
+  
   .button1{
-    left: 27px;
+    left: 385px;
     top: 40px;
     right: 0px;
     bottom: 0px;
   }
   .button2{
-    left: 83px;
+    left: 1110px;
     top: 40px;
     right: 0px;
     bottom: 0px;
   }
   .button3{
-    left: 135px;
+    left: 1840px;
     top: 40px;
     right: 0px;
     bottom: 0px;
   }
   .button4{
-    left: 185px;
+    left: 2570px;
     top: 40px;
     right: 0px;
     bottom: 0px;
   }
+
   
   .strips_cubd1_1 > div {
     top: 300px;
-    left: 18px;
+    left: 375px;
   }
   
   .strips_cubd1_2 > div {
   
     top: 240px;
-    left: 18px;
+    left: 375px;
   }
   
   .strips_cubd1_3 > div {
     top: 180px;
-    left: 18px;
+    left: 375px;
   }
-  
-  
   
   .strips_cubd1_4 > div {
   
     top: 120px;
-    left: 18px;
-  
+    left: 375px;
   }
   
   
   .strips_cubd2_1 > div {
     top: 300px;
-    left: 14px;
+    left: 375px;
   }
   
   
@@ -1710,41 +1707,41 @@ p{
   .strips_cubd2_2 > div {
   
     top: 240px;
-    left: 14px;
+    left: 375px;
   
   }
   
   .strips_cubd2_3 > div {
   
     top: 180px;
-    left: 14px;
+    left: 375px;
   }
   
   
   .strips_cubd2_4 > div {
     top: 120px;
-    left: 14px;
+    left: 375px;
   }
   
   
   .strips_cubd3_1 > div {
   
     top: 300px;
-    left: 7px;
+    left: 375px;
   
   }
   
   .strips_cubd3_2 > div {
   
     top: 240px;
-    left: 7px;
+    left: 375px;
    
   }
   
   .strips_cubd3_3 > div {
    
     top: 180px;
-    left: 7px;
+    left: 375px;
   
   }
   
@@ -1752,35 +1749,35 @@ p{
   .strips_cubd3_4 > div {
   
     top: 120px;
-    left: 7px;
+    left: 375px;
   
   }
   
   .strips_cubd4_1 > div {
    
     top: 300px;
-    left: 0px;
+    left: 375px;
   
   }
   
   .strips_cubd4_2 > div {
   
     top: 240px;
-    left: 0px;
+    left: 375px;
   
   }
   
   .strips_cubd4_3 > div {
   
     top: 180px;
-    left: 0px;
+    left: 375px;
    
   }
   
   
   .strips_cubd4_4 > div {
     top: 120px;
-    left: 0px;
+    left: 375px;
   
   }
   
