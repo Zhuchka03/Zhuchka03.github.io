@@ -107,7 +107,7 @@ body
     padding: 80px 0;
     list-style: none;
     text-align: left;
-    background-color: #6fa188; 
+    background-color: #69e81a; 
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     z-index: 1;
   }
@@ -122,7 +122,7 @@ body
     text-decoration: none;
   }
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: #58de23;
   }
 
 
@@ -154,11 +154,11 @@ a:visited {
     color: rgb(251, 11, 107);
  }  
 a:hover{
-    color: #85ff48;
+    color: #f9f9f9;
     text-decoration: none;
 }
 a:active {
-     color: red; 
+     color: rgba(255, 0, 0, 0.855); 
     }      
 
 
@@ -190,9 +190,7 @@ a:active {
 }
 
 .nav_menu ul li a {
-    /*
-  padding: 18px;
-  font-size: 18px;*/
+
   font-family: "Open Sans";
   text-transform:uppercase;
   color: rgb(244, 246, 250);
@@ -222,15 +220,11 @@ a:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*
-    margin: 10px;
-    min-height:100px;*/
+
 
     min-height:150px;
     margin: 10px;
-    /*
-    margin-left: 200px;
-    margin-right:200px;*/
+
 }
 
 
@@ -239,11 +233,6 @@ a:active {
 }
 
 .article_class{
-
-    /*
-    padding: 60px;
-    text-align: justify;
-    font-size: 16px;*/
 
     padding: 100px;
     text-align: justify;
@@ -270,23 +259,13 @@ p{
 
 .oglavlenie ol li{
 
-    /*line-height: 1.8;*/
     margin: 0px 10px;
 }
-/*
-.oglavlenie_h{
-    text-align: center;
-}
-*/
+
 .table_container{
     
     text-align: center;
-    /*
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    */
- /*!!!*/
+
  
 }
 table{
@@ -335,7 +314,7 @@ td{
 .koddblock {
 	position: relative;
     text-align: center;
-	width: 100%; /* for IE 6 */
+	width: 100%; 
 }
 
 
@@ -423,27 +402,27 @@ background-size: 400% 400%;
   
   .icons_param.vk:after{
     background-color:#0717f9;
-    /*box-shadow: 0px 0px 15px #8dcbf380;*/
+   
   }
   
   .icons_param.instagram:after{
     background: linear-gradient(45deg, #e6fb28,#f321c6, #ff9501);
-    /*box-shadow: 0px 0px 15px #fa090980;*/
+    
   }
   
   .icons_param.youtube:after{
     background: linear-gradient(0deg, #940b0b,#ff2d07, #f58558);
-   /* box-shadow: 0px 0px 15px #fa090980;*/
+ 
   }
   .icons_param.telegram:after{
    
     background: linear-gradient(45deg, rgb(125, 184, 242) 0%,  rgb(82, 239, 245)100%);
-    /*box-shadow: 0px 0px 15px #67e4f280;*/
+   
   }
   
   .icons_param.facebook:after{
     background-color:#0717f9;
-    /*box-shadow: 0px 0px 15px #3c81e980;*/
+
   }
   
   .icons_param:hover{

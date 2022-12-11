@@ -5,7 +5,7 @@ body{
     
   }
   body{
-    /*background: #007bff;*/
+   
     background-image: url("1_par.png");
     background-size: 1500px;
 }
@@ -54,7 +54,6 @@ body{
   .content1{
     margin: 10px;
     background: linear-gradient(-45deg,#f42b08c0,#f42b08c0,#f42b08c0,#fbfbfbc6,#2bd209c0,#2bd209c0,#2bd209c0,#1c9204c0);
-    /*#577022c0,#9cd707c6*/
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
     height: 160px;
@@ -65,17 +64,12 @@ body{
     max-width: 960px;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
-   /*position: absolute;*/
-    /*padding: 60px 0;*/
     
   }
   
   .nav_menu_title ul {
     text-align: center;
-  
     background: #2bd209c0;
-
-    /*background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);*/
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     
   }
@@ -108,9 +102,6 @@ body{
 }
 
 
-
-/*1_1*/
-
   .container__cubd {
     width: 100%;
     height: 100%;
@@ -127,13 +118,11 @@ body{
     bottom: 0px;
     transform-style: preserve-3d;
     transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
-
+    
   }
   .strips_cubd {
     transform-style: preserve-3d;
 
-
-   /* transition: 420ms;*/
     
   }
   .strips_cubd1_1 > div {
@@ -141,10 +130,10 @@ body{
     top: 300px;
     left: -12px;
     margin-top: -10px;
-    background: #f42b08c0; /*limegreen*/
+    background: #f42b08c0;
     border: solid darkgreen;
     border-width: 5px 0;
-    height: 60px; /*120*/
+    height: 60px; 
     width: 100px;
 
     
@@ -243,8 +232,7 @@ body{
     border-width: 5px 0;
     height: 60px;
     width: 100px;
-    
-    /*opacity: 1;*/
+   
   }
 
   .strips_cubd1_3 > div {
@@ -274,33 +262,12 @@ body{
     width: 100px;
 
   }
-  /*
-.button_text{
-  position: relative;
-  left: 106px;
-}*/
-/*
-.button1{
-  position: relative;
-  left: 102px;
-}
-.button2{
-  position: relative;
-  left: 602px;
-}
-.button3{
-  position: relative;
-  left: 902px;
-}
-.button4{
-  position: relative;
-  left: 520px;
-}*/
+
 
 
 .big_container1{
     height: 500px;
-    background: #f8050579;/*#e88181*/
+    background: #f8050579;
 }
 .big_container2{
     height: 500px;
@@ -317,7 +284,7 @@ body{
 
 
 .frame_cubd1_1{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 100px;
     width: 100px;
     top: 0px;
@@ -325,21 +292,21 @@ body{
   }
 
   .frame_cubd1_2{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 100px;
     width: 24px;
     top: 0px;
     transition: 1.3s;
   }
   .frame_cubd1_3{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 100px;
     width: 24px;
     bottom: 0px;
     transition: 1.3s;
   }
   .frame_cubd1_4{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 100px;
     width: 24px;
     bottom: 0px;
@@ -366,12 +333,6 @@ body{
     opacity: 1;
 }
 
-/* Новое*/
-/*
-.super_big_container{
-    display: flex;
-}
-*/
 
 .super_big_container{
   
@@ -381,8 +342,6 @@ body{
     justify-content: center;
     
 }
-
-/* Новое*/
 
 
 /*Вторая бочка*//*Вторая бочка*//*Вторая бочка*//*Вторая бочка*//*Вторая бочка*/
@@ -401,16 +360,13 @@ body{
     background: #12c450c0;
     border: solid darkgreen;
     border-width: 5px 0;
-    height: 60px; /*120*/
+    height: 60px; 
     width: 100px;
 
     
   }
 
-  
-/*1_2*/
 
-  
   .strips_cubd2_2 > div {
     position: absolute;
     top: 240px;
@@ -425,7 +381,7 @@ body{
    
 
   }
-  /*1_3*/
+  
 
   .strips_cubd2_3 > div {
     position: absolute;
@@ -440,12 +396,6 @@ body{
     bottom: 0px;
   }
 
-  
-  /*1_4*/
-
-
-
-
   .strips_cubd2_4 > div {
     position: absolute;
     top: 120px;
@@ -459,7 +409,7 @@ body{
 
   }
 .frame_cubd2_1{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 110px;
     width: 100px;
     top: 0px;
@@ -467,21 +417,21 @@ body{
   }
 
   .frame_cubd2_2{
-    position: relative; /*самая главная позиция!!*/
+    position: relative;
     left: 110px;
     width: 100px;
     top: 0px;
     transition: 1.3s;
   }
   .frame_cubd2_3{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 110px;
     width: 100px;;
     bottom: 0px;
     transition: 1.3s;
   }
   .frame_cubd2_4{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 110px;
     width: 100px;
     bottom: 0px;
@@ -522,14 +472,12 @@ body{
     background: #69e81a;
     border: solid darkgreen;
     border-width: 5px 0;
-    height: 60px; /*120*/
+    height: 60px; 
     width: 100px;
 
     
   }
 
-  
-/*1_2*/
 
   
   .strips_cubd3_2 > div {
@@ -543,10 +491,9 @@ body{
     border-width: 5px 0;
     height: 60px;
     width: 100px;
-   
-
+  
   }
-  /*1_3*/
+ 
 
   .strips_cubd3_3 > div {
     position: absolute;
@@ -575,7 +522,7 @@ body{
 
   }
 .frame_cubd3_1{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 120px;
     width: 100px;
     top: 0px;
@@ -583,21 +530,21 @@ body{
   }
 
   .frame_cubd3_2{
-    position: relative; /*самая главная позиция!!*/
+    position: relative;
     left: 120px;
     width: 100px;
     top: 0px;
     transition: 1.3s;
   }
   .frame_cubd3_3{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 120px;
     width: 100px;;
     bottom: 0px;
     transition: 1.3s;
   }
   .frame_cubd3_4{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 120px;
     width: 100px;
     bottom: 0px;
@@ -641,14 +588,11 @@ body{
     background: white;
     border: solid darkgreen;
     border-width: 5px 0;
-    height: 60px; /*120*/
+    height: 60px; 
     width: 100px;
 
     
   }
-
-  
-/*1_2*/
 
   
   .strips_cubd4_2 > div {
@@ -665,7 +609,7 @@ body{
    
 
   }
-  /*1_3*/
+ 
 
   .strips_cubd4_3 > div {
     position: absolute;
@@ -694,7 +638,7 @@ body{
 
   }
 .frame_cubd4_1{
-    position: relative; /*самая главная позиция!!*/
+    position: relative; 
     left: 130px;
     width: 100px;
     top: 0px;
@@ -702,21 +646,21 @@ body{
   }
 
   .frame_cubd4_2{
-    position: relative; /*самая главная позиция!!*/
+    position: relative;
     left: 130px;
     width: 100px;
     top: 0px;
     transition: 1.3s;
   }
   .frame_cubd4_3{
-    position: relative; /*самая главная позиция!!*/
+    position: relative;
     left: 130px;
     width: 100px;;
     bottom: 0px;
     transition: 1.3s;
   }
   .frame_cubd4_4{
-    position: relative; /*самая главная позиция!!*/
+    position: relative;
     left: 130px;
     width: 100px;
     bottom: 0px;
@@ -772,7 +716,6 @@ body{
 }
 
 
-/*Возможно надо убрать 0 */
 .button1{
   left: 106px;
   top: 0px;
