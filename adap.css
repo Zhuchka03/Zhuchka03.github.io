@@ -7,22 +7,24 @@
      
         grid-template-columns:repeat(4, 1fr);
     
-        font-size: 20px;
+        font-size: 16px;
     }
     
     footer{
         margin: 10px;
         background: #80cb9a81;
         background-size: 400% 400%;
-        height: 400px;
-        font-size: 25px;    
+        
+        font-size: 23px;    
     }
     }
+
+    
     
     @media screen and (min-width: 769px) and (max-width: 1000px) {
     footer{
     
-        height: 600px;
+        
         font-size: 16px;   
     
     }
@@ -30,38 +32,38 @@
         
         grid-template-columns:repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        font-size: 19px;
+        font-size: 16px;
     }
     
     .icons_param{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     }
     
     .vk{
-    font-size: 45px;
+    font-size: 35px;
     }
     
     .instagram{
-    font-size: 40px;
+    font-size: 30px;
     }
     
     .youtube{
-    font-size: 50px;
+    font-size: 40px;
     }
     .telegram{
-    font-size: 40px;
+    font-size: 30px;
     }
     
     .facebook{
-    font-size: 40px;
+    font-size: 30px;
     }
     }
     
     @media screen and (min-width: 520px) and (max-width: 768px) {
     footer{
     
-        height: 850px;
+      
         font-size: 16px;   
     
     }

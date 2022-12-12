@@ -340,22 +340,22 @@ background-size: 400% 400%;
 /*иконки*/
 
 .vk{
-    font-size: 50px;
+    font-size: 40px;
   }
   
   .instagram{
-    font-size: 45px;
+    font-size: 35px;
   }
   
   .youtube{
-    font-size: 55px;
+    font-size: 45px;
   }
   .telegram{
-    font-size: 45px;
+    font-size: 35px;
   }
   
   .facebook{
-    font-size: 45px;
+    font-size: 35px;
   }
   
   .icons_5{
@@ -374,8 +374,8 @@ background-size: 400% 400%;
     align-items: center;
     justify-content:center;
     display: flex;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin: 15px; /*расстояние между иконками*/
     background-color: rgb(132, 127, 127);
     border-radius: 50%;
@@ -391,8 +391,8 @@ background-size: 400% 400%;
   
   .icons_param:after{
     content:"";
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     transform:translate(0,-70px);
     border-radius: 50%;

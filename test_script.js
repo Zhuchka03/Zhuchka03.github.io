@@ -39,6 +39,8 @@ let counterLine;
 let widthValue = 0;
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
+
+
 // если нажата кнопка  restartQuiz 
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //показать поле для теста
@@ -57,6 +59,8 @@ restart_quiz.onclick = ()=>{
     timeText.textContent = "Осталось"; //измените текст timeText на оставшееся время
     next_btn.classList.remove("show"); //скрыть следующую кнопку
 }
+
+
 // если нажать кнопку quitQuiz
 quit_quiz.onclick = ()=>{
     window.location.reload(); //перезагрузите текущее окно
@@ -102,9 +106,13 @@ function showQuetions(index){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
+
+
 // создание новых тегов div, которые для значков
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+
+
 //если пользователь нажал на опцию
 function optionSelected(answer){
     clearInterval(counter); //очистить counter
@@ -136,6 +144,8 @@ function optionSelected(answer){
     }
     next_btn.classList.add("show"); //показывать кнопку далее, если пользователь выбрал какой-либо вариант
 }
+
+
 function showResult(){
     info_box.classList.remove("activeInfo"); //скрыть информационное поле
     quiz_box.classList.remove("activeQuiz"); //скрыть окно теста
@@ -161,6 +171,8 @@ function showResult(){
         scoreText.innerHTML = scoreTag;
     }
 }
+
+
 function startTimer(time){
     counter = setInterval(timer, 1000);
     function timer(){
@@ -190,6 +202,8 @@ function startTimer(time){
         }
     }
 }
+
+
 function startTimerLine(time){
     counterLine = setInterval(timer, 56);
     function timer(){
