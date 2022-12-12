@@ -11,6 +11,7 @@ let questions = [
       "SQLite"
     ]
   },
+  
     {
     numb: 2,
     question: "Базы данных — это ...",

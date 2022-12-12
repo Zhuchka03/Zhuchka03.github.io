@@ -41,6 +41,7 @@ const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 
 
+
 // если нажата кнопка  restartQuiz 
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //показать поле для теста
